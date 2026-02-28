@@ -6,8 +6,6 @@ import { Button } from "@/components/ui/button"
 export default function Hero() {
   return (
     <section className="relative w-full min-h-screen flex items-center justify-center overflow-hidden">
-
-      {/* 🎥 Background Video */}
       <video
         autoPlay
         muted
@@ -15,7 +13,7 @@ export default function Hero() {
         playsInline
         className="absolute inset-0 w-full h-full object-cover"
       >
-        <source src="/video/hero-bg.mp4" type="video/mp4" />
+        <source src="/videos/onda-background2.mp4" type="video/mp4" />
       </video>
 
       {/* 🔥 Overlay escuro para contraste */}

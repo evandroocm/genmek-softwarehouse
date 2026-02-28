@@ -1,5 +1,8 @@
 import CasesSection from "@/components/Cases";
+import ContactSection from "@/components/Contact";
+import FinalCTASection from "@/components/CTA";
 import DifferentialsSection from "@/components/Differentials";
+import FAQSection from "@/components/FAQ";
 import Hero from "@/components/Hero";
 import ProblemsSection from "@/components/Problems";
 import ProcessSection from "@/components/Process";
@@ -16,6 +19,9 @@ export default function Home() {
       <CasesSection />
       <DifferentialsSection />
       <TestimonialsSection />
+      <FinalCTASection />
+      <ContactSection />
+      <FAQSection />
     </div>
   );
 }
