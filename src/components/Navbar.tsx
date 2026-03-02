@@ -22,27 +22,27 @@ export default async function Navbar() {
           {/* Navbar components */}
           <div className="hidden md:flex items-center space-x-4">
             <Button variant="ghost" className="flex items-center gap-2" asChild>
-              <Link href="/projects">
+              <Link href="#services">
                 <HomeIcon size={18} />
-                <span className="hidden lg:inline">Home</span>
+                <span className="hidden lg:inline">Serviços</span>
               </Link>
             </Button>
 
             <Button variant="ghost" className="flex items-center gap-2" asChild>
-              <Link href="/projects">
+              <Link href="#projects">
                 <Box size={18} />
-                <span className="hidden lg:inline">Item 2</span>
+                <span className="hidden lg:inline">Projetos</span>
               </Link>
             </Button>
             
             <Button variant="ghost" className="flex items-center gap-2" asChild>
-              <Link href="/projects">
+              <Link href="#contact">
                 <Box size={18} />
-                <span className="hidden lg:inline">Item 3</span>
+                <span className="hidden lg:inline">Contato</span>
               </Link>
             </Button>
 
-            <ModeToggle />
+            {/* <ModeToggle /> */}
 
             <Button variant="default" className="flex items-center gap-2" asChild>
               <Link href="/contact">

@@ -9,7 +9,7 @@ import { Mail, Phone, MapPin } from "lucide-react"
 
 export default function ContactSection() {
   return (
-    <section className="w-full py-28">
+    <section className="w-full py-28" id="contact">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Header */}
